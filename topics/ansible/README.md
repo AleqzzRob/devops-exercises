@@ -1,4 +1,4 @@
-## Ansible
+b## Ansible
 
 <!-- {% raw %} -->
 
@@ -50,6 +50,7 @@ Ansible is:
 
 <details>
 <summary>True or False? Ansible follows the mutable infrastructure paradigm</summary><br><b>
+
 
 True. In immutable infrastructure approach, you'll replace infrastructure instead of modifying it.<br>
 Ansible rather follows the mutable infrastructure paradigm where it allows you to change the configuration of different components, but this approach is not perfect and has its own disadvantages like "configuration drift" where different components may reach different state for different reasons.
